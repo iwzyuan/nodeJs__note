@@ -16,18 +16,11 @@ function serve(request, response) {
     *
     * */
     var urlObj = urlFn.parse(request.url,true);
-    console.log(urlObj);
-    console.log(request.url);
+    //console.log(urlObj);
+    //console.log(request.url);
     var url = urlObj.pathname;
-    // response.statusCode = 200;//设置状态码
-    // response.setHeader('Content-Type', 'text/html;charset=utf-8');
-    // response.setHeader('name', 'iwzyuan');//设置响应头
-    // fs.readFile('index.html', function (err, data) {  //读取文件得内容，并且将读取到得内容写入到相应提
-    //     response.write(data);
-    //     response.end();
-    // })
+    console.log(url);
     if (url == '/') {
-
         response.statusCode = 200;//设置状态码
         response.setHeader('Content-Type', 'text/html;charset=utf-8');
         response.setHeader('name', 'iwzyuan');//设置响应头
@@ -35,7 +28,22 @@ function serve(request, response) {
             response.write(data);
             response.end();
         })
-    } else {
+    } else if (url == '/clock'){
+        var counter = 0;
+        response.statusCode = 200;//设置状态码
+        response.setHeader('Content-Type', 'text/html;charset=utf-8');
+        // console.log('进入clock');
+        var init = setInterval(function () {
+            response.write(new Date().toString());
+            counter++;
+            if (counter == 5){
+                clearInterval(init);
+                response.end();
+            }
+        },1000)
+
+        // response.end();
+    }else {
         astatic(url, response);
     }
 }
@@ -45,12 +53,16 @@ function astatic(url, response) {  // 文件类型不为html的回掉函数
     var curUrl = arr[arr.length-1].slice(1);
     var curType = curUrl.split('.')[1];
     response.statusCode = 200;//设置状态码
-    response.setHeader('Content-Type', mime._types[curType] + ';charset=utf-8');
     response.setHeader('name','iwzyuan');
-    fs.readFile(curUrl, function (err, data) {  //读取文件得内容，并且将读取到得内容写入到相应提
-        response.write(data);
-        response.end();
-    })
+    if(typeof mime._types[curType] !== "undefined"){
+
+        response.setHeader('Content-Type', mime._types[curType] + ';charset=utf-8');
+        fs.readFile(curUrl, function (err, data) {  //读取文件得内容，并且将读取到得内容写入到相应提
+            response.write(data);
+            // console.log(data);
+            response.end();
+        })
+    }
 }
 
 var server = http.createServer(serve);//创建服务器
