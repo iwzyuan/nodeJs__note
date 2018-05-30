@@ -8,8 +8,8 @@ var fs = require('fs');
 function serve(request,response) {
     console.log(request.method);//请求的方法
     console.log(request.url);//请求里的url地址
-    //console.log(request.headers);//获取请求头信息
-    
+    console.log(request.headers);//获取请求头信息
+
     response.statusCode = 200;//设置状态码
     response.setHeader('Content-Type','text/html;charset=utf-8')
     response.setHeader('name','iwzyuan');//设置响应头

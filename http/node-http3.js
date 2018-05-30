@@ -9,11 +9,24 @@ var urlFn = require('url');  //对URL进行处理，把字符串转成对象
 * */
 
 function serve(request, response) {
-    var urlObj = urlFn.parse(request.url);
+    /*
+    *
+    * 此处parse(...,true)若此处传true则返回值的query属性变为对象模式<{name : iwzyuan,age : 10}>
+    * 若不传则query<name=iwzyuan&age=10>
+    *
+    * */
+    var urlObj = urlFn.parse(request.url,true);
     console.log(urlObj);
     console.log(request.url);
-    var url = request.url;
-    if (url.pathname == '/') {
+    var url = urlObj.pathname;
+    // response.statusCode = 200;//设置状态码
+    // response.setHeader('Content-Type', 'text/html;charset=utf-8');
+    // response.setHeader('name', 'iwzyuan');//设置响应头
+    // fs.readFile('index.html', function (err, data) {  //读取文件得内容，并且将读取到得内容写入到相应提
+    //     response.write(data);
+    //     response.end();
+    // })
+    if (url == '/') {
 
         response.statusCode = 200;//设置状态码
         response.setHeader('Content-Type', 'text/html;charset=utf-8');
