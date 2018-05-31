@@ -27,15 +27,15 @@ Person.prototype.emit = function (eventName) {
         callbacks.forEach(function (callback, index) {
             // console.log(callback, index);
             // callback.apply(self,args)
-            callback()
+            callback.apply(self,args)
         })
         this._events.once[eventName] = [];
     }else {
         var callbacks = this._events[eventName];
         callbacks.forEach(function (callback, index) {
             // console.log(callback, index);
-            // callback.apply(self,args)
-            callback()
+            callback.apply(self,args)
+            // callback()
         })
     }
 
@@ -55,15 +55,14 @@ var girl = new Person();
 girl.once('drop', function () {
     console.log('once');
 })
-girl.on('hahaha', function () {
-    console.log('shoudao');
+girl.on('hahaha', function (arg) {
+    console.log(arg,'shoudao');
 })
 girl.on('hahaha', function () {
     console.log('enheng');
 })
 // console.log(util.inspect(girl._events, true, 4, true));
-girl.emit('hahaha');
-girl.emit('drop');
+girl.emit('hahaha','luhahaha');
 girl.emit('drop');
 girl.emit('drop');
 
