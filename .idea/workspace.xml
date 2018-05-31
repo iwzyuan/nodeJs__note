@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/global/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/node-http3.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/node-http3.js" afterDir="false" />
-    </list>
+    <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="util.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/global/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="301">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -30,11 +26,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/util.js">
+      <file leaf-file-name="events.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event/events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="262" column="41" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="41" />
+            <state relative-caret-position="242">
+              <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cb.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/event/cb.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventEmitter.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/event/eventEmitter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,6 +69,12 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>on</find>
+      <find>\bon</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +95,9 @@
         <option value="$PROJECT_DIR$/global/1.txt" />
         <option value="$PROJECT_DIR$/global/setImme.js" />
         <option value="$PROJECT_DIR$/global/util.js" />
+        <option value="$PROJECT_DIR$/event/events.js" />
+        <option value="$PROJECT_DIR$/event/cb.js" />
+        <option value="$PROJECT_DIR$/event/eventEmitter.js" />
       </list>
     </option>
   </component>
@@ -90,9 +116,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="498" />
-    <option name="y" value="1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1066" />
+    <option name="y" value="260" />
     <option name="width" value="1368" />
     <option name="height" value="1003" />
   </component>
@@ -115,7 +141,7 @@
             <path>
               <item name="nodeJs__note" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeJs__note" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
+              <item name="event" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,26 +174,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.util.js">
-    <configuration name="global.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="global.js" working-dir="$PROJECT_DIR$/global" />
-    <configuration name="nexttick.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="nexttick.js" working-dir="$PROJECT_DIR$/global" />
-    <configuration name="process.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="process.js" working-dir="$PROJECT_DIR$/global" />
+  <component name="RunManager" selected="Node.js.eventEmitter.js">
+    <configuration name="cb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="cb.js" working-dir="$PROJECT_DIR$/event" />
+    <configuration name="eventEmitter.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="eventEmitter.js" working-dir="$PROJECT_DIR$/event" />
+    <configuration name="events.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="events.js" working-dir="$PROJECT_DIR$/event" />
     <configuration name="setImme.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="setImme.js" working-dir="$PROJECT_DIR$/global" />
     <configuration name="util.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="util.js" working-dir="$PROJECT_DIR$/global" />
     <list>
-      <item itemvalue="Node.js.global.js" />
-      <item itemvalue="Node.js.process.js" />
-      <item itemvalue="Node.js.nexttick.js" />
       <item itemvalue="Node.js.setImme.js" />
       <item itemvalue="Node.js.util.js" />
+      <item itemvalue="Node.js.events.js" />
+      <item itemvalue="Node.js.cb.js" />
+      <item itemvalue="Node.js.eventEmitter.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.eventEmitter.js" />
+        <item itemvalue="Node.js.cb.js" />
+        <item itemvalue="Node.js.events.js" />
         <item itemvalue="Node.js.util.js" />
         <item itemvalue="Node.js.setImme.js" />
-        <item itemvalue="Node.js.nexttick.js" />
-        <item itemvalue="Node.js.process.js" />
-        <item itemvalue="Node.js.global.js" />
       </list>
     </recent_temporary>
   </component>
@@ -181,26 +207,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527660992723</updated>
-      <workItem from="1527660995306" duration="20622000" />
+      <workItem from="1527660995306" duration="24458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20622000" />
+    <option name="totallyTimeSpent" value="24458000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="1" width="1368" height="1003" extended-state="0" />
+    <frame x="838" y="78" width="1368" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15263158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15263158" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33448276" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3862069" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32873562" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3873563" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -341,8 +367,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/global/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="301">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/cb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/event/eventEmitter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
