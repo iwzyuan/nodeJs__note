@@ -58,7 +58,7 @@ function astatic(url, response) {  // 文件类型不为html的回掉函数
 
         response.setHeader('Content-Type', mime._types[curType] + ';charset=utf-8');
         fs.readFile(curUrl, function (err, data) {  //读取文件得内容，并且将读取到得内容写入到相应提
-            response.write(data);
+            // response.write(data);
             // console.log(data);
             response.end();
         })

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/node-http.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/node-http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/node-http2.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/node-http2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/global/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/node-http3.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/node-http3.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,38 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="node-http3.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/http/node-http3.js">
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/global/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            <state relative-caret-position="151">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/index.html">
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="262" column="41" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="41" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,6 +66,12 @@
         <option value="$PROJECT_DIR$/http/node-http.js" />
         <option value="$PROJECT_DIR$/http/node-http2.js" />
         <option value="$PROJECT_DIR$/http/node-http3.js" />
+        <option value="$PROJECT_DIR$/global/global.js" />
+        <option value="$PROJECT_DIR$/global/process.js" />
+        <option value="$PROJECT_DIR$/global/nexttick.js" />
+        <option value="$PROJECT_DIR$/global/1.txt" />
+        <option value="$PROJECT_DIR$/global/setImme.js" />
+        <option value="$PROJECT_DIR$/global/util.js" />
       </list>
     </option>
   </component>
@@ -97,8 +91,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="669" />
-    <option name="y" value="36" />
+    <option name="x" value="498" />
+    <option name="y" value="1" />
     <option name="width" value="1368" />
     <option name="height" value="1003" />
   </component>
@@ -121,7 +115,7 @@
             <path>
               <item name="nodeJs__note" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeJs__note" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="global" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,23 +148,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.node-http3.js">
-    <configuration name="node-http2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="node-http2.js" working-dir="$PROJECT_DIR$/http" />
-    <configuration name="node-http3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="node-http3.js" working-dir="$PROJECT_DIR$/http" />
-    <configuration name="node-http.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="node-http.js" working-dir="$PROJECT_DIR$/http" />
-    <configuration name="node-http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="node-http.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Node.js.util.js">
+    <configuration name="global.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="global.js" working-dir="$PROJECT_DIR$/global" />
+    <configuration name="nexttick.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="nexttick.js" working-dir="$PROJECT_DIR$/global" />
+    <configuration name="process.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="process.js" working-dir="$PROJECT_DIR$/global" />
+    <configuration name="setImme.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="setImme.js" working-dir="$PROJECT_DIR$/global" />
+    <configuration name="util.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="util.js" working-dir="$PROJECT_DIR$/global" />
     <list>
-      <item itemvalue="Node.js.node-http.js" />
-      <item itemvalue="Node.js.node-http.js (1)" />
-      <item itemvalue="Node.js.node-http2.js" />
-      <item itemvalue="Node.js.node-http3.js" />
+      <item itemvalue="Node.js.global.js" />
+      <item itemvalue="Node.js.process.js" />
+      <item itemvalue="Node.js.nexttick.js" />
+      <item itemvalue="Node.js.setImme.js" />
+      <item itemvalue="Node.js.util.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.node-http3.js" />
-        <item itemvalue="Node.js.node-http2.js" />
-        <item itemvalue="Node.js.node-http.js (1)" />
-        <item itemvalue="Node.js.node-http.js" />
+        <item itemvalue="Node.js.util.js" />
+        <item itemvalue="Node.js.setImme.js" />
+        <item itemvalue="Node.js.nexttick.js" />
+        <item itemvalue="Node.js.process.js" />
+        <item itemvalue="Node.js.global.js" />
       </list>
     </recent_temporary>
   </component>
@@ -184,22 +181,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527660992723</updated>
-      <workItem from="1527660995306" duration="8425000" />
+      <workItem from="1527660995306" duration="20622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8425000" />
+    <option name="totallyTimeSpent" value="20622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="742" y="18" width="1368" height="1003" extended-state="0" />
+    <frame x="498" y="1" width="1368" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15263158" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15263158" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33448276" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.32873562" />
@@ -249,27 +246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http/node-http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -286,8 +262,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/http/node-http3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        <state relative-caret-position="345">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/nexttick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/setImme.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="262" column="41" selection-start-line="262" selection-start-column="16" selection-end-line="262" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
