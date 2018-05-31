@@ -22,6 +22,9 @@ jingGoBell.addListener('ring',fn); //添加事件
 jingGoBell.once('drop',function () { //添加一次事件
     console.log('铃铛丢了');
 });
+jingGoBell.once('drop',function () { //添加一次事件
+    console.log('铃铛丢了');
+});
 //jingGoBell.removeListener('ring',fn); //移除事件
 
 console.log(jingGoBell.listeners('ring')); //监听事件
