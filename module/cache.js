@@ -1,12 +1,16 @@
 //var person = require('./person');
 // var home = require('home')
+var util = require('util');
 var home = require('home1')
-console.log(home.name);
-console.log(require);
+console.log(util.inspect(require,true,4,true));
+console.log(home);
 // console.log(require);
 /*
 * require.resolve('./person') => 返回模块的绝对路径
 *
+* */
+/*
+* 清除缓存的方法
 * */
 // console.log(require.resolve('./person'));
 // delete require.cache[require.resolve('./person')]; //=> 清除缓存
