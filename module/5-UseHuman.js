@@ -1,4 +1,4 @@
-var Person = require('./human');
+var Person = require('./4-human');
 
 var p1 = new Person('iwzyuan',23);
 console.log(p1.getName());

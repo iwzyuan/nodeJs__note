@@ -2,7 +2,7 @@
 * util
 *
 * */
-var util = require('util');
+var util = require('global/5-util');
 
 function Parent() {
     this.name = 'father';

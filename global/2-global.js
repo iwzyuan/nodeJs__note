@@ -7,6 +7,7 @@
 * __filename : 当前模块的绝对路径
 * */
 //console.log(global);
+
 function f(module,exports,require,__dirname,filename) {
 
 }

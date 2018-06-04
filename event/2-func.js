@@ -1,4 +1,4 @@
-var EveFn = require('events');
+var EveFn = require('event/1-events');
 var eve = new EveFn();
 function say(name,word) {
     console.log(name, ":", word);

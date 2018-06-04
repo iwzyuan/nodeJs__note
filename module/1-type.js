@@ -1,4 +1,4 @@
-var p = require('./person');
+var p = require('./2-person');
 var json = require('./json');
 /*
 *   require('.json)实现原理

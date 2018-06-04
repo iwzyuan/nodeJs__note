@@ -1,6 +1,6 @@
-var buf1 = new Buffer([1,2,3]);
+var buf1 = new Buffer([1,2,3,4,5,6,6,6,6,6,6]);
 var buf2 = new Buffer([4,5,6]);
-var buf = Buffer.concat([buf2,buf1],6);//合并buff，(ary,合并后buff长度)
+var buf = Buffer.concat([buf2,buf1],6);//合并buff，(ary,合并后buff长度).长度可省略
 console.log(buf);
 /*
 * 手写concat方法

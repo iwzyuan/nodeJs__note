@@ -1,4 +1,4 @@
-var EventEmitter = require('events');
+var EventEmitter = require('event/1-events');
 var fs = require('fs');
 var person = {};
 var eve = new EventEmitter();

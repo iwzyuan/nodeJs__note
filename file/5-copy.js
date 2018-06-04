@@ -5,8 +5,8 @@ var read = function (fd,list,pos,src,target) {
         pos += bytesLen;
         if (bytesLen > 0) {
             list.push(buffer.slice(0, bytesLen));
-            arguments.callee
-            // read(fd,list,pos,src,target);
+            // arguments.callee
+            read(fd,list,pos,src,target);
         } else {
             var result = Buffer.concat(list).toString();
             fs.writeFile(target,result,function (err,data) {
