@@ -13,7 +13,7 @@ console.log(p);
 console.log(json);
 var fs = require('fs');
 console.log('开始');
-var data1 = 'data1';
+ var data1 = 'data1';
 fs.readFile('./json.json', function (err, data) {
     data1 = data
 })
