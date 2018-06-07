@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据流/可写流/1-writeStream.js" beforeDir="false" afterPath="$PROJECT_DIR$/数据流/可写流/1-writeStream.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据流/可写流/write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数据流/可写流/write.txt" afterDir="false" />
-    </list>
+    <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,8 +26,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/http详解/html5/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            <state relative-caret-position="850">
+              <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -155,7 +151,7 @@
       <path value="$PROJECT_DIR$/module/node_modules/home1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="720" />
     <option name="y" value="159" />
     <option name="width" value="1044" />
@@ -268,12 +264,12 @@
       <workItem from="1527660995306" duration="35989000" />
       <workItem from="1528094029401" duration="4020000" />
       <workItem from="1528180955561" duration="24511000" />
-      <workItem from="1528336524668" duration="21149000" />
+      <workItem from="1528336524668" duration="21751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85669000" />
+    <option name="totallyTimeSpent" value="86271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -637,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/http详解/html5/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        <state relative-caret-position="850">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
