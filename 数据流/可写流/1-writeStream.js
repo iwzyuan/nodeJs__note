@@ -8,6 +8,7 @@ ws.on('open',function () {
     console.log('写入文件已经打开')
 })
 rs.on('data',function (data) {
+    console.log(data);
     ws.write(data);//ws.write(chunk<写入的数据>,encoding,callback)
 })
 rs.on('end',function () {

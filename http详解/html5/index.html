@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传文件</title>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/todc-bootstrap/3.1.1-3.2.1/todc-bootstrap.min.css">
+</head>
+<style>
+    td {
+        width: 100px;
+        padding: 10px 20px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="form-group">
+            <label for="fileUpload">请选择上传的文件</label>
+            <input class="form-control" type="file" id="fileUpload" onchange="fileSelect()">
+        </div>
+        <div class="form-group">
+            <input type="button" onclick="uploadFile()" class="btn btn-default" value="上传">
+        </div>
+        <div>
+            <table class="table table-striped">
+                <tr>
+                    <td>文件名称</td>
+                    <td>文件大小</td>
+                    <td>文件类型</td>
+                </tr>
+                <tr>
+                    <td id="fileName"></td>
+                    <td id="fileSize"></td>
+                    <td id="fileType"></td>
+                </tr>
+            </table>
+        </div>
+        <div>已上传 <span id="persent"> 0 </span> %</div>
+    </div>
+</body>
+<script>
+    var fileSelect = function () {
+        var upFile = document.querySelector('#fileUpload').files[0];
+        document.querySelector('#fileName').innerHTML = upFile.name;
+        document.querySelector('#fileSize').innerHTML = upFile.size;
+        document.querySelector('#fileType').innerHTML = upFile.type;
+    }
+    var progress = function (events) {
+        var persent = Math.round(events.loaded / events.total)*100;
+        document.querySelector('#persent').innerHTML = persent;
+    }
+    var uploadFile = function () {
+        var upFile = document.querySelector('#fileUpload').files[0];
+        var fd = new FormData();
+        fd.append('fileUpload',upFile);
+        fd.append('fileName',upFile.name);
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST','/post');
+        xhr.upload.addEventListener('progress',progress);
+        xhr.addEventListener('success',function () {
+            console.log('请求完成，并成功');
+        })
+        xhr.addEventListener('err',function () {
+            console.log('请求失败');
+        })
+        xhr.send(fd)
+    }
+</script>
+</html>

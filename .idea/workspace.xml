@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/4-tcpClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/4-tcpClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/5-udpClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/5-udpClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tcp/5-udpServer.js" beforeDir="false" afterPath="$PROJECT_DIR$/tcp/5-udpServer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据流/可写流/1-writeStream.js" beforeDir="false" afterPath="$PROJECT_DIR$/数据流/可写流/1-writeStream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据流/可写流/write.txt" beforeDir="false" afterPath="$PROJECT_DIR$/数据流/可写流/write.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,77 +18,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="chatserver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/chatserver.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http详解/html5/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="355">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/http详解/html5/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3-pipe.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据流/可写流/3-pipe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/multiparty/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="udpClient1.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tcp/udpClient1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1-tcpserver.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/1-tcpserver.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2-tcpsocket.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/2-tcpsocket.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3-tcpsocket.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/3-tcpsocket.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4-tcpClient.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/4-tcpClient.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5-udpClient.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/5-udpClient.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5-udpServer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tcp/5-udpServer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -100,9 +63,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="package_json" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -121,21 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/http/node-http2.html" />
-        <option value="$PROJECT_DIR$/http/index.html" />
-        <option value="$PROJECT_DIR$/http/style.css" />
-        <option value="$PROJECT_DIR$/http/index.js" />
-        <option value="$PROJECT_DIR$/http/node-http.js" />
-        <option value="$PROJECT_DIR$/http/node-http2.js" />
-        <option value="$PROJECT_DIR$/http/node-http3.js" />
-        <option value="$PROJECT_DIR$/global/nexttick.js" />
-        <option value="$PROJECT_DIR$/global/1.txt" />
-        <option value="$PROJECT_DIR$/global/setImme.js" />
-        <option value="$PROJECT_DIR$/global/util.js" />
-        <option value="$PROJECT_DIR$/event/cb.js" />
-        <option value="$PROJECT_DIR$/event/eventEmitter.js" />
-        <option value="$PROJECT_DIR$/event/events.js" />
-        <option value="$PROJECT_DIR$/module/json.json" />
         <option value="$PROJECT_DIR$/module/type.js" />
         <option value="$PROJECT_DIR$/module/person.js" />
         <option value="$PROJECT_DIR$/module/human.js" />
@@ -172,6 +120,21 @@
         <option value="$PROJECT_DIR$/tcp/5-udpClient.js" />
         <option value="$PROJECT_DIR$/tcp/4-tcpClient.js" />
         <option value="$PROJECT_DIR$/tcp/5-udpServer.js" />
+        <option value="$PROJECT_DIR$/http详解/1-server.js" />
+        <option value="$PROJECT_DIR$/http详解/url.js" />
+        <option value="$PROJECT_DIR$/http详解/querystring.js" />
+        <option value="$PROJECT_DIR$/http详解/4-server.js" />
+        <option value="$PROJECT_DIR$/http详解/5-client.js" />
+        <option value="$PROJECT_DIR$/http详解/3-querystring.js" />
+        <option value="$PROJECT_DIR$/http详解/2-url.js" />
+        <option value="$PROJECT_DIR$/http详解/5-JSON_server.js" />
+        <option value="$PROJECT_DIR$/http详解/6-form_client.js" />
+        <option value="$PROJECT_DIR$/http详解/5-JSON_client.js" />
+        <option value="$PROJECT_DIR$/http详解/index.html" />
+        <option value="$PROJECT_DIR$/数据流/可写流/1-writeStream.js" />
+        <option value="$PROJECT_DIR$/http详解/6-form_server.js" />
+        <option value="$PROJECT_DIR$/http详解/html5/index.html" />
+        <option value="$PROJECT_DIR$/http详解/html5/server.js" />
       </list>
     </option>
   </component>
@@ -192,9 +155,9 @@
       <path value="$PROJECT_DIR$/module/node_modules/home1/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="888" />
-    <option name="y" value="95" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="720" />
+    <option name="y" value="159" />
     <option name="width" value="1044" />
     <option name="height" value="873" />
   </component>
@@ -217,7 +180,13 @@
             <path>
               <item name="nodeJs__note" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeJs__note" type="462c0819:PsiDirectoryNode" />
-              <item name="tcp" type="462c0819:PsiDirectoryNode" />
+              <item name="数据流" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodeJs__note" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodeJs__note" type="462c0819:PsiDirectoryNode" />
+              <item name="数据流" type="462c0819:PsiDirectoryNode" />
+              <item name="可写流" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,26 +232,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.4-tcpClient.js">
-    <configuration name="2-tcpsocket.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="2-tcpsocket.js" working-dir="$PROJECT_DIR$/tcp" />
-    <configuration name="4-tcpClient.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="4-tcpClient.js" working-dir="$PROJECT_DIR$/tcp" />
-    <configuration name="5-udpClient.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="5-udpClient.js" working-dir="$PROJECT_DIR$/tcp" />
-    <configuration name="5-udpServer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="5-udpServer.js" working-dir="$PROJECT_DIR$/tcp" />
-    <configuration name="udpClient1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="udpClient1.js" working-dir="$PROJECT_DIR$/tcp" />
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="1-writeStream.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1-writeStream.js" working-dir="$PROJECT_DIR$/数据流/可写流" />
+    <configuration name="5-JSON_client.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="5-JSON_client.js" working-dir="$PROJECT_DIR$/http详解" />
+    <configuration name="5-JSON_server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="5-JSON_server.js" working-dir="$PROJECT_DIR$/http详解" />
+    <configuration name="6-form_server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="6-form_server.js" working-dir="$PROJECT_DIR$/http详解" />
+    <configuration name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/http详解/html5" />
     <list>
-      <item itemvalue="Node.js.2-tcpsocket.js" />
-      <item itemvalue="Node.js.4-tcpClient.js" />
-      <item itemvalue="Node.js.5-udpServer.js" />
-      <item itemvalue="Node.js.5-udpClient.js" />
-      <item itemvalue="Node.js.udpClient1.js" />
+      <item itemvalue="Node.js.5-JSON_server.js" />
+      <item itemvalue="Node.js.5-JSON_client.js" />
+      <item itemvalue="Node.js.6-form_server.js" />
+      <item itemvalue="Node.js.1-writeStream.js" />
+      <item itemvalue="Node.js.server.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.4-tcpClient.js" />
-        <item itemvalue="Node.js.2-tcpsocket.js" />
-        <item itemvalue="Node.js.udpClient1.js" />
-        <item itemvalue="Node.js.5-udpClient.js" />
-        <item itemvalue="Node.js.5-udpServer.js" />
+        <item itemvalue="Node.js.server.js" />
+        <item itemvalue="Node.js.6-form_server.js" />
+        <item itemvalue="Node.js.1-writeStream.js" />
+        <item itemvalue="Node.js.5-JSON_client.js" />
+        <item itemvalue="Node.js.5-JSON_server.js" />
       </list>
     </recent_temporary>
   </component>
@@ -299,27 +268,27 @@
       <workItem from="1527660995306" duration="35989000" />
       <workItem from="1528094029401" duration="4020000" />
       <workItem from="1528180955561" duration="24511000" />
-      <workItem from="1528336524668" duration="1066000" />
+      <workItem from="1528336524668" duration="21149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65586000" />
+    <option name="totallyTimeSpent" value="85669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13013698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12961012" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30862534" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19292605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32873562" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.21486486" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.386059" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38513514" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -336,116 +305,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/file/1-readfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/2-write.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/3-open.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/5-copy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/6-write.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/flag详解.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/2-func.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/cb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/3-done.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/4-eventdone.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/可读流.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file/4-read.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可读流/流的概念.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/1-events.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/event/5-eventEmitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可读流/read.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buffer/1-size.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buffer/2-trans.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/buffer/3-buffer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-235">
@@ -473,9 +332,6 @@
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可读流/可读流.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/数据流/可读流/3-lineReader.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -505,26 +361,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可写流/1-writeStream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可写流/2-bigFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可写流/writeStream.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可写流/writable可写流.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/数据流/可写流/write.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -543,13 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可写流/3-pipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -664,6 +493,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="998" column="12" selection-start-line="998" selection-start-column="12" selection-end-line="998" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/1-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" lean-forward="true" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/2-url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/3-querystring.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/4-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/6-form_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/5-JSON_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/5-JSON_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/1-writeStream.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/2-bigFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/6-form_server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/writable可写流.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/可读流的方法1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/可读流触发的事件.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可读流/流的概念.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/writeStream.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可读流/可读流.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/html5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/multiparty/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/3-pipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/html5/878820522229436895.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http详解/html5/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
         </state>
       </provider>
     </entry>
