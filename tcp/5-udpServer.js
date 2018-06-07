@@ -1,4 +1,7 @@
 var dgram = require('dgram');
+/*
+* UDP服务端
+* */
 var socket = dgram.createSocket('udp4');
 socket.bind(41234,'localhost');
 socket.on('message',function (msg,rinfo) {
