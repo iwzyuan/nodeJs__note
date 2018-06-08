@@ -1,7 +1,5 @@
 var fs = require('fs');
 
-
-
 // var buffer = new Buffer(12);
 var list = [];
 fs.open('line.txt','r',function (err,fd) {

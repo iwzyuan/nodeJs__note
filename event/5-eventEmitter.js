@@ -2,7 +2,7 @@
 * events模块
 *
 * */
-var EventEmitter = require('event/1-events');
+var EventEmitter = require('events');
 var util = require('util');
 function Bell(name) {
     this.name = name;
