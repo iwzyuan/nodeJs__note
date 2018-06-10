@@ -2,6 +2,7 @@ var http = require('http');
 var fs = require('fs');
 var mime = require('mime'); // 引入文件类型模块
 var urlFn = require('url');  //对URL进行处理，把字符串转成对象
+
 /*
 *
 * 每当请求来的时候调用serve函数对客户端请求进行处理

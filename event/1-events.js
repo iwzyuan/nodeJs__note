@@ -1,6 +1,6 @@
 /*
 * 事件
-*   订阅发布
+*   订阅发布 node中events模块实现原理
 *
 * */
 var util = require('util');
@@ -25,17 +25,17 @@ Person.prototype.emit = function (eventName) {
     if(this._events.once[eventName]){
         var callbacks = this._events.once[eventName];
         callbacks.forEach(function (callback, index) {
-            // console.log(callback, index);
-            // callback.apply(self,args)
             callback.apply(self,args)
         })
         this._events.once[eventName] = [];
     }else {
         var callbacks = this._events[eventName];
         callbacks.forEach(function (callback, index) {
-            // console.log(callback, index);
+            /*
+            * args为调用emit方法时的参数转换为了数组
+            *
+            * */
             callback.apply(self,args)
-            // callback()
         })
     }
 
