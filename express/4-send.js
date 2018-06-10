@@ -22,6 +22,13 @@ app.all('/host',function (req,res) {
     console.log(req.path)
     res.send('host');
 })
+app.all('/status',function (req,res) {
+    /*
+    * 发送状态码
+    *
+    * */
+    res.sendStatus('host');
+})
 // app.all('*',function (req,res) {
 //     res.send('页面走丢了')
 // })
