@@ -1,15 +1,23 @@
+/*
+* 监听错误进程，若有错误立即终止并打印错误信息
+* */
 process.on('uncaughtException',function (e) {
-    console.log(e.message); //捕获异常
+    //console.log(e.message); //捕获异常
 });
 //console.log(b);//错误信息
 try {
-    console.log(a)
+    //console.log(a)
 }catch (e) {
-    console.log(e.message);
+    //console.log(e.message);
 }
-
-process.stdout.write('hello'); //标准输出
-console.log(process.pid);
+/*
+* 标准输入
+* */
+process.stdout.write('hello');
+// console.log(process.pid);
+/*
+* 标准输出
+* */
 process.stdin.on('data',function (data) {
     console.log(data.toString());
 });

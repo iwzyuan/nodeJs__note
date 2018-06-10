@@ -1,4 +1,4 @@
-//任意禁止转换成10进制
+//任意进制转换成10进制
 console.log(parseInt('11', 2));//当成2进制转换成10进制
 console.log(parseInt('11', 8));//当成8进制转换成10进制
 console.log(parseInt('11', 16));//当成16进制转换成10进制

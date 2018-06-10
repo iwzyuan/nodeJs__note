@@ -2,7 +2,7 @@
 * util
 *
 * */
-var util = require('global/5-util');
+var util = require('util');
 
 function Parent() {
     this.name = 'father';
@@ -42,13 +42,14 @@ Person.prototype.toString = function () {
 }
 var p = new Person();
 /*
-*  showHidden, depth, colors
+*  <obj> showHidden, depth, colors
 * */
 console.log(util.inspect(p,true,1,true));
 console.log(p.toString());
 
 var arr1 = [1,2];
 var arr2 = [3,4];
-console.log(arr1.concat(arr2));//=>不改变原来数组
+var arr3 = [5,6]
+//console.log(arr1.concat(arr2));//=>不改变原来数组
 Array.prototype.push.apply(arr1, arr2);
 console.log(arr1);

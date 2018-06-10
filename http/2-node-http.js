@@ -13,7 +13,7 @@ function serve(request, response) {
     console.log(urlObj);
     console.log(request.url);
     var url = request.url;
-    if (url.pathname == '/') {
+    /*if (url.pathname == '/') {
         response.statusCode = 200;//设置状态码
         response.setHeader('Content-Type', 'text/html;charset=utf-8');
         response.setHeader('name', 'iwzyuan');//设置响应头
@@ -23,7 +23,7 @@ function serve(request, response) {
         })
     } else {
         astatic(url, response);
-    }
+    }*/
 }
 
 function astatic(url, response) {  // 文件类型不为html的回掉函数

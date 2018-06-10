@@ -9,6 +9,6 @@ rs.on('data',function (data) {
     var flag = ws.write(data);//写入数据如果在缓存区内返回true如果数据存至内存返回false
     console.log(flag);
 })
-ws.on('drain',function () { //当缓存区溢出时触发drain
+ws.on('drain',function () { //当缓存区数据消费完成为空的时候触发drain
     console.log('drain');
 })
