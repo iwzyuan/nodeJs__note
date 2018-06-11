@@ -2,9 +2,11 @@ var express = require('express');
 var cookieParser = require('cookie-parser')
 var app =express();
 var querystring = require('querystring');
+
 app.set('view engine','html');
 app.set('views',__dirname);
 app.engine('html',require('ejs').__express)
+
 app.use(cookieParser('iwzy'));/*签名:iwzy*/
 function checkLogin (req,res,next){
     console.log(req.cookies);

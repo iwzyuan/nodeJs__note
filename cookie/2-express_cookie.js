@@ -1,5 +1,5 @@
 var express = require('express');
-var cookieParser = require('cookie-parser')
+var cookieParser = require('cookie-parser');//引入cookie中间件
 var app =express();
 var querystring = require('querystring')
 app.listen(8080);
