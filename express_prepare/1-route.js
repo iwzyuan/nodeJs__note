@@ -10,7 +10,7 @@ http.createServer(function (req,res) {
     //所有的程序都要使用的代码
     var urlObj = url.parse(req.url,true);
     var pathname = urlObj.pathname;
-    var query = urlObj.query
+    var query = urlObj.query;
 
     if (pathname == '/'){
         res.writeHead(200,{'Content-Type':'text/html;charset=utf-8'});

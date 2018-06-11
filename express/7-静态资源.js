@@ -16,7 +16,13 @@ app.get('/',function (req,res) {
         age : 6
     })
 })
-app.use(express.static(path.join(__dirname,'public')));
+app.use(express.static(path.join(__dirname,'public'),{
+    dotfiles : 'deny',
+    index : 'index.html',
+    setHeaders :function (res) {
+        res.setHeader('name','iwzyuan');
+    }
+}));
 /*
 * 中间件express.static原理
 * */

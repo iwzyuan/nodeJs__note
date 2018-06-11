@@ -3,5 +3,3 @@ var app = connect();
 app.listen(8080)
 require('./middle')(app);
 require('./route')(app);
-
-

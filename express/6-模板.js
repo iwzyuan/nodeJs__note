@@ -1,6 +1,5 @@
 /*
 * npm install ejs
-*
 * */
 var express = require('express');
 

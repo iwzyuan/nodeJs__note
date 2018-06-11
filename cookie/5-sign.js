@@ -1,0 +1,1 @@
+var crypto = require('crypto'); //加密算法

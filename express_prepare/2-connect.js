@@ -13,12 +13,7 @@ function createServer() {
     return app;
 }
 proto.use = function (routePath,fn){
-    var handle = fn;
-    var path = routePath;
-    if (typeof path != 'string'){
-        handle = routePath;
-        path = '/'
-    }
+
     this.stack.push({
         handle : handle,
         path : path

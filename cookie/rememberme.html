@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>remeber</title>
+</head>
+<script>
+    function setCookie(key,value) {
+        document.cookie = key + "=" + value;
+    }
+    function getCookie(key) {
+        if (document.cookie){
+            var parts = document.cookie.split('; ');
+            for (var i in parts) {
+                var vals = parts[i].split('=');
+                if(vals[0] == key){
+                    return vals[1]
+                }else {
+                    return ""
+                }
+            }
+        } else {
+            return ""
+        }
+    }
+    function checkCookie() {
+        var username = getCookie('username');
+        if (username){
+            alert('欢迎在'+username+'再次访问');
+            document.querySelector('#username').value = username;
+        } else {
+            username = prompt('请输入用户名');
+            if (username) {
+                setCookie('username',username)
+            }
+        }
+    }
+</script>
+<body onload="checkCookie()">
+<input type="text" id="username">
+</body>
+</html>
