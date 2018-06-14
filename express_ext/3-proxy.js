@@ -3,7 +3,9 @@
 * */
 var express = require('express');
 var http = require('http');
-var url = require('url')
+var url = require('url');
+var fs = require('fs');
+
 // var proxy = require('http-proxy').createProxyServer();
 
 var app = express();

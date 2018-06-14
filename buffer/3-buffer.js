@@ -35,5 +35,8 @@ var tarBuf = new Buffer(6);
 tarBuf[0] = 1;
 tarBuf[1] = 2;
 tarBuf[2] = 3;
+/*
+* tarBug,被copy对象的偏移量，copy对象开始，copy对象结束
+* */
 srcBuf.copy(tarBuf,3,0,3);
 console.log(tarBuf);//<Buffer 01 02 03 04 05 06>
