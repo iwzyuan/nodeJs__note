@@ -51,7 +51,7 @@ function proxyPass(config){
         if (status == false){
             next();
         }
-
+C
         /*------------------------------*/
 }
 }
@@ -68,7 +68,12 @@ var app3000 = express();
 app3000.get('/',function (req,res) {
 res.end('3000')
 })
-app3000.listen(3000);
+//应用服务器
+var app3001 = express();
+app3001.get('/',function (req,res) {
+    res.end('3001')
+})
+app3001.listen(3001);
 //应用服务器B
 var app4000 = express();
 app4000.get('/',function (req,res) {
