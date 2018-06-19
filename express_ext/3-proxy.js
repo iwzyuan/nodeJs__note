@@ -51,7 +51,6 @@ function proxyPass(config){
         if (status == false){
             next();
         }
-C
         /*------------------------------*/
 }
 }

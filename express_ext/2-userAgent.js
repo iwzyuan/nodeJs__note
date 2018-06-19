@@ -3,7 +3,9 @@
 * */
 var express = require('express');
 var path = require('path');
-
+/*
+* user-agent-parser将请求的user-agent解析
+* */
 var agentParser = require('user-agent-parser')
 var app = express();
 var visit = {mobile:0,other:0};
