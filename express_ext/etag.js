@@ -2,6 +2,12 @@ var fs = require('fs');
 var express = require('express');
 var http = require('http');
 var app = express();
+var crypto = require('crypto');
+function getHash(str) {
+    var shasum = crypto.createHash('sha1');
+    return shasum.update(str).digest('base64');//hex
+}
+
 /*
 * 1.
 * */
@@ -9,7 +15,7 @@ function send(filename,req,res){
     //取得最后修改事件
     var lastModified = new Date(req.headers['if-modified-since']);//缓存区最后修改事件
     fs.stat(filename,function (err,stat) {
-        console.log(stat.mtime, lastModified);
+        console.log(stat, lastModified);
         if (stat.mtime.getTime() == lastModified.getTime()){
             res.statusCode = 304
             res.end();
