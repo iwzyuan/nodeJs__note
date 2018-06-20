@@ -3,12 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="156090e2-137b-4e64-b7fb-eab341060a6b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml___jb_tmp___" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/3-buffer.js" beforeDir="false" afterPath="$PROJECT_DIR$/buffer/3-buffer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buffer/4-over.js" beforeDir="false" afterPath="$PROJECT_DIR$/buffer/4-over.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express_ext/3-proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/express_ext/3-proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/file/file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http/1-node-http.js" beforeDir="false" afterPath="$PROJECT_DIR$/http/1-node-http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/cast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/cast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/error/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/error/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/queryhelpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/boolean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/operators/exists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/schema/string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/virtualtype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/migrating_to_5.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/migrating_to_5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,38 +33,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3-proxy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express_ext/3-proxy.js">
+      <file leaf-file-name="stack.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/数据流/stack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="394">
+              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/file/file.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4-node-http-request.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/http/4-node-http-request.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testFile.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/file/testFile.txt">
+      <file leaf-file-name="stackfun.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/数据流/stackfun.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -86,16 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/file/3-open.js" />
-        <option value="$PROJECT_DIR$/express_prepare/index.html" />
-        <option value="$PROJECT_DIR$/http/2-node-http.js" />
-        <option value="$PROJECT_DIR$/express_prepare/route.js" />
-        <option value="$PROJECT_DIR$/express_prepare/connect.js" />
-        <option value="$PROJECT_DIR$/node_modules/express/lib/request.js" />
-        <option value="$PROJECT_DIR$/express/介绍.js" />
-        <option value="$PROJECT_DIR$/express/中间件.js" />
-        <option value="$PROJECT_DIR$/express/3-参数.js" />
-        <option value="$PROJECT_DIR$/express/send.js" />
         <option value="$PROJECT_DIR$/express/4-send.js" />
         <option value="$PROJECT_DIR$/express/index.html" />
         <option value="$PROJECT_DIR$/express/5-模板.js" />
@@ -129,14 +109,24 @@
         <option value="$PROJECT_DIR$/express_ext/en/index.html" />
         <option value="$PROJECT_DIR$/express_ext/zh/index.html" />
         <option value="$PROJECT_DIR$/express_ext/multi.js" />
-        <option value="$PROJECT_DIR$/express_ext/2-userAgent.js" />
         <option value="$PROJECT_DIR$/buffer/3-buffer.js" />
         <option value="$PROJECT_DIR$/file/4-read.js" />
         <option value="$PROJECT_DIR$/buffer/4-over.js" />
-        <option value="$PROJECT_DIR$/express_ext/3-proxy.js" />
         <option value="$PROJECT_DIR$/file/file.js" />
         <option value="$PROJECT_DIR$/http/4-node-http-request.js" />
         <option value="$PROJECT_DIR$/http/1-node-http.js" />
+        <option value="$PROJECT_DIR$/express_ext/test.js" />
+        <option value="$PROJECT_DIR$/express_ext/index.html" />
+        <option value="$PROJECT_DIR$/express_ext/expires.js" />
+        <option value="$PROJECT_DIR$/express_ext/modify.js" />
+        <option value="$PROJECT_DIR$/express_ext/7-basicauth.js" />
+        <option value="$PROJECT_DIR$/express_ext/3-proxy.js" />
+        <option value="$PROJECT_DIR$/express_ext/2-userAgent.js" />
+        <option value="$PROJECT_DIR$/mongoose/mongoose.js" />
+        <option value="$PROJECT_DIR$/mongoose/2-mongoose.js" />
+        <option value="$PROJECT_DIR$/mongoose/1-mongoose.js" />
+        <option value="$PROJECT_DIR$/数据流/stack.js" />
+        <option value="$PROJECT_DIR$/数据流/stackfun.js" />
       </list>
     </option>
   </component>
@@ -272,10 +262,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="629" />
-    <option name="y" value="129" />
-    <option name="width" value="1894" />
-    <option name="height" value="871" />
+    <option name="x" value="428" />
+    <option name="y" value="151" />
+    <option name="width" value="1117" />
+    <option name="height" value="860" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -285,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,13 +286,12 @@
             <path>
               <item name="nodeJs__note" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodeJs__note" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="数据流" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +299,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="9.3.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../项目代码" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -318,16 +308,16 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\数据流\可读流" />
+      <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\module\node_modules" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\express_ext" />
       <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\buffer" />
       <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note" />
       <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\express_referer" />
       <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\express_referer\img" />
-      <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\session" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\数据流\可读流" />
-      <recent name="C:\Users\wuxiaocui\Desktop\nodeJs__note\module\node_modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,26 +332,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.4-node-http-request.js">
-    <configuration name="1-node-http.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="1-node-http.js" working-dir="$PROJECT_DIR$/http" />
+  <component name="RunManager" selected="Node.js.stack.js">
+    <configuration name="1-mongoose.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/mongoose/1-mongoose.js" working-dir="$PROJECT_DIR$/mongoose" />
     <configuration name="3-proxy.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="3-proxy.js" working-dir="$PROJECT_DIR$/express_ext" />
-    <configuration name="4-node-http-request.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="4-node-http-request.js" working-dir="$PROJECT_DIR$/http" />
-    <configuration name="concat.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="concat.js" working-dir="$PROJECT_DIR$/buffer" />
-    <configuration name="file.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="file.js" working-dir="$PROJECT_DIR$/file" />
+    <configuration name="7-basicauth.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="7-basicauth.js" working-dir="$PROJECT_DIR$/express_ext" />
+    <configuration name="modify.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="modify.js" working-dir="$PROJECT_DIR$/express_ext" />
+    <configuration name="stack.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="stack.js" working-dir="$PROJECT_DIR$/数据流" />
     <list>
+      <item itemvalue="Node.js.modify.js" />
+      <item itemvalue="Node.js.7-basicauth.js" />
       <item itemvalue="Node.js.3-proxy.js" />
-      <item itemvalue="Node.js.concat.js" />
-      <item itemvalue="Node.js.file.js" />
-      <item itemvalue="Node.js.1-node-http.js" />
-      <item itemvalue="Node.js.4-node-http-request.js" />
+      <item itemvalue="Node.js.1-mongoose.js" />
+      <item itemvalue="Node.js.stack.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.4-node-http-request.js" />
-        <item itemvalue="Node.js.1-node-http.js" />
-        <item itemvalue="Node.js.file.js" />
+        <item itemvalue="Node.js.stack.js" />
+        <item itemvalue="Node.js.1-mongoose.js" />
         <item itemvalue="Node.js.3-proxy.js" />
-        <item itemvalue="Node.js.concat.js" />
+        <item itemvalue="Node.js.7-basicauth.js" />
+        <item itemvalue="Node.js.modify.js" />
       </list>
     </recent_temporary>
   </component>
@@ -383,25 +373,26 @@
       <workItem from="1528683434036" duration="30933000" />
       <workItem from="1528854771210" duration="4199000" />
       <workItem from="1528861682649" duration="14452000" />
-      <workItem from="1528941210840" duration="11628000" />
+      <workItem from="1528941210840" duration="13902000" />
+      <workItem from="1529374032603" duration="30297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164361000" />
+    <option name="totallyTimeSpent" value="196932000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="629" y="129" width="1894" height="871" extended-state="0" />
+    <frame x="428" y="151" width="1117" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12176724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2094532" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004156" side_tool="true" weight="0.28184283" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49958438" visible="true" weight="0.36856368" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958438" weight="0.38376892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26287264" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26785713" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38346884" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -416,19 +407,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18786368" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12176724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28184283" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38346884" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.27408412" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49958438" weight="0.36856368" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38346884" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26287264" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004156" side_tool="true" weight="0.28184283" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -453,66 +444,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="283" column="6" selection-start-line="283" selection-start-column="6" selection-end-line="283" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/session.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http详解/html5/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mkdirp/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="67" column="24" lean-forward="true" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express-session/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11775">
-          <caret line="477" column="14" selection-start-line="477" selection-start-column="14" selection-end-line="477" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/9.3.0/core-modules/fs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="352" selection-start-line="352" selection-end-line="352" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/Q19je2AC8iKIhlrvCrmLgB2wt4cJRbT7" />
-    <entry file="file://$PROJECT_DIR$/session/WmJAHACtCKUqMu92x2wxkz1mu4qeWVrT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/session/filestore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/session/2-mongostore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -607,33 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express_referer/refer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="30" column="15" selection-end-line="44" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express_ext/1-multi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express_ext/2-userAgent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/express_prepare/1-route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -659,13 +563,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/数据流/可读流/1-readstream.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/数据流/可读流/2-readable.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -690,13 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/数据流/可写流/3-pipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -770,23 +661,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express_ext/3-proxy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/file/testFile.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/http/4-node-http-request.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -799,8 +680,118 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/file/file.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_referer/refer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/modify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/7-basicauth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/3-proxy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/2-userAgent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoose/2-mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoose/1-mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="79" column="15" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/expires.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express_ext/1-multi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/可写流/3-pipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/stackfun.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据流/stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
