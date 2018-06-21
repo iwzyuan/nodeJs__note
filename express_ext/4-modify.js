@@ -23,9 +23,7 @@ function send(filename,req,res){
                 res.write(data);
                 res.end()
             })
-
             // req.sendFile(filename)
-
         }
     })
 }
