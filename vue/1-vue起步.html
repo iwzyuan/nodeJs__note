@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue起步</title>
+</head>
+<body>
+<div id="app1">
+    {{ massage }}
+</div>
+<div id="app2">
+    <span v-bind:title="message">鼠标悬停</span>
+</div>
+<div id="app3">
+    <span v-if="seen">现在你看到我了</span>
+</div>
+<div id="app4">
+    <ul>
+        <li v-for="notice in notices">id:{{ notice.id }}  ------  内容: {{ notice.text }}</li>
+    </ul>
+</div>
+<div id="app5">
+    <button v-on:click='reverseMethod'>reverse</button>
+    <p>{{ message }}</p>
+</div>
+<div id="app6">
+    <div>{{ message }}</div>
+    <input type="text" v-model="message">
+</div>
+<div id="app7">
+    <todo-item v-for="item in prolist"
+                v-bind:id="item.id"
+                v-bind:text="item.text"></todo-item>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    Vue.component('todo-item',{
+        props : ['id','text'],
+        template : '<li>{{id}}{{text}}<li>'
+    })
+    var app7 = new Vue({
+        el : '#app7',
+        data : {
+            prolist : [
+                {id : 0, text : '我是0'},
+                {id : 1, text : '我是1'},
+                {id : 2, text : '我是2'},
+                {id : 3, text : '我是3'}
+            ]
+        }
+    })
+    var app6 = new Vue({
+        el : '#app6',
+        data : {
+            message : 'hellow iwzyuan'
+        }
+    })
+    var app5 = new Vue({
+        el: '#app5',
+        data : {
+            message : 'hellow iwzyuan'
+        },
+        methods : {
+            reverseMethod : function () {
+                this.message = this.message.split('').reverse().join('');
+            }
+        }
+    })
+    var app4 = new Vue({
+        el : '#app4',
+        data : {
+            notices : [
+                {id : 0, text : '我是0'},
+                {id : 1, text : '我是1'},
+                {id : 2, text : '我是2'},
+                {id : 3, text : '我是3'}
+            ]
+        }
+    })
+    var app3 = new Vue({
+        el : '#app3',
+        data : {
+            seen : false
+        }
+    })
+    var app2 = new Vue({
+        el : '#app2',
+        data: {
+            message : '页面加载于 ' + new Date().toLocaleString()
+        }
+    })
+    var app1 = new Vue({
+        el : '#app1',
+        data : {
+            massage : 'Hello Vue'
+        }
+    })
+
+</script>
+</body>
+</html>
