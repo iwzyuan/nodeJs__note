@@ -32,11 +32,114 @@
                 v-bind:id="item.id"
                 v-bind:text="item.text"></todo-item>
 </div>
+<div id="app8"></div>
+<div id="app9"></div>
+<div id="app10">
+    app10 {{ massage }} <!--加 v-once 只能取一次后续不更新-->
+    <div v-html="rowHtml"></div> <!--使用v-html 属性可以识别html代码-->
+    <div>{{ok? 'yes':'no'}}</div>
+    <div>{{ arr.split('').reverse().join('') }}</div>
+    <div> {{reverseMassage}} </div>
+</div>
+<style>
+    .active {
+        background: #0074D9;
+    }
+    .text-err {
+        color: red;
+    }
+</style>
+<div id="app11">
+
+    <p :class="{active : isActive,'text-err' : isErr}">app11</p>
+    <p :class="classObject">app11</p>
+    <p :class="[activeClass,errClass]">app11</p>
+    <p :class="[{active:isActive},errClass]">app11</p>
+</div>
+<div id="app12">
+    <button v-on:click="changevIf">改变</button>
+    <template v-if=" vIf>7">
+        <input type="text" placeholder="大于7">
+    </template>
+    <template v-else-if="vIf <7 && vIf > 4">
+        <input type="text" placeholder="大于4小于7">
+    </template>
+    <template v-else-if="vIf>1 && vIf < 4">
+        <input type="text" placeholder="大于1小于4">
+    </template>
+    <template v-else>
+        <input type="text" placeholder="大于1小于4">
+    </template>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
+    var  app12 = new Vue({
+        el : '#app12',
+        data : {
+            vIf : Math.random()*10
+        },
+        methods : {
+            changevIf : function () {
+                this.vIf = Math.random()*10
+                console.log(this.vIf)
+            }
+        }
+    })
+    var app11 = new Vue({
+        el : '#app11',
+        data : {
+            isActive : true,
+            isErr : false,
+            activeClass : 'active',
+            errClass : 'text-err'
+        },
+        computed : {
+            classObject : function () {
+                return {
+                    active : this.isActive,
+                    'text-err' : this.isErr
+                }
+            }
+        }
+    })
+    var app10 = new Vue({
+        el : '#app10',
+        data : {
+            ok : true,
+            arr : 'abcdefg',
+            massage : 1,
+            rowHtml : '<span style="color:red;">我是rowHtml</span>'
+        },
+        computed : { //计算属性
+            reverseMassage : function () {
+                return this.arr.split('').reverse().join('');
+            }
+        }
+    })
+    var app9 = new Vue({
+        el : '#app9',
+        data : {
+            massage : 1
+        },
+        created : function () {
+            console.log(this);
+        }
+    })
+    var app8Data = {
+        massage : 'i am aap8'
+    }
+    var app8 = new Vue({
+        el : '#app8',
+        data : app8Data
+    })
+    //console.log(app8);
+    //console.log( app8Data === app8.$data);
+    app8.$watch('massage',function (newValue,oldValue) {
+        console.log(oldValue, newValue);
+    })
     Vue.component('todo-item',{
         props : ['id','text'],
-        template : '<li>{{id}}{{text}}<li>'
+        template : '<li>{{ id }}{{ text }}<li>'
     })
     var app7 = new Vue({
         el : '#app7',
@@ -89,11 +192,13 @@
             message : '页面加载于 ' + new Date().toLocaleString()
         }
     })
+    var vue1Data = {
+        massage : 'Hello Vue'
+    }
+    // Object.freeze(vue1Data)  加入这个方法则冻结vue1Data使它不能改变
     var app1 = new Vue({
         el : '#app1',
-        data : {
-            massage : 'Hello Vue'
-        }
+        data :vue1Data
     })
 
 </script>

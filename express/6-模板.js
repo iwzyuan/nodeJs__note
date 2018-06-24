@@ -7,6 +7,7 @@ var app = express();
 
 app.set('view engine','html');
 app.set('views',__dirname);
+console.log(__dirname);
 app.engine('html',require('ejs').__express)
 app.get('/',function (req,res) {
     res.render('index',{
