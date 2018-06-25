@@ -59,20 +59,62 @@
 <div id="app12">
     <button v-on:click="changevIf">改变</button>
     <template v-if=" vIf>7">
-        <input type="text" placeholder="大于7">
+        <input type="text" placeholder="大于7" key="a">
     </template>
     <template v-else-if="vIf <7 && vIf > 4">
-        <input type="text" placeholder="大于4小于7">
+        <input type="text" placeholder="大于4小于7" key="b">
     </template>
     <template v-else-if="vIf>1 && vIf < 4">
-        <input type="text" placeholder="大于1小于4">
+        <input type="text" placeholder="大于1小于4" key="c">
     </template>
     <template v-else>
-        <input type="text" placeholder="大于1小于4">
+        <input type="text" placeholder="大于1小于4" key="d">
     </template>
 </div>
+<div id="app13">
+    <p>数组循环</p>
+    <ul>
+        <li v-for="item in arrItems">{{item}}</li>
+    </ul>
+    <p>数组index</p>
+    <ul><li v-for="(item,index) in arrItems">{{ item }} ----- {{ index }}</li></ul>
+
+    <p>json循环</p>
+    <ul><li v-for="(value,key,index) in jsonItems">{{ value }}---{{key}}-----{{index}}</li></ul>
+</div>
+<div id="app14">
+    <button-counter></button-counter>
+    <button-counter></button-counter>
+    <button-counter></button-counter>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
+    // 定义一个名为 button-counter 的新组件
+    Vue.component('button-counter', {
+        data: function () {
+            return {
+                count: 0
+            }
+        },
+        template: '<button v-on:click="count++">You clicked me {{ count }} times.</button>'
+    })
+    var app14 = new Vue({
+        el : '#app14'
+    })
+    var app13 = new Vue({
+        el : '#app13',
+        data : {
+            arrItems : [
+                'joho','jack','bluce'
+            ],
+            jsonItems : {
+                a : 1,
+                b : 2,
+                c : 3
+            }
+        }
+    })
     var  app12 = new Vue({
         el : '#app12',
         data : {
